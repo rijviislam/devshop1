@@ -81,7 +81,7 @@ ul li {
 
 .menu__bar ul li:hover .sub__menu {
     margin-top: 2rem;
-    padding:  0 1rem;
+    padding: 0 1rem;
     width: 230px;
     display: block;
     position: absolute;
@@ -92,12 +92,13 @@ ul li {
 .menu__bar ul li:hover .sub__menu ul {
     display: block;
 }
-.menu__bar ul li:hover .sub__menu ul li .sub__log{
-}
+
+.menu__bar ul li:hover .sub__menu ul li .sub__log {}
 
 .sub__menu ul li {
     padding: 1.3rem 0;
 }
+
 .nav__icon {
     padding-left: 2rem;
     display: flex;
@@ -571,7 +572,6 @@ ul li {
     padding-top: 5rem;
     padding-bottom: 8rem;
     display: flex;
-    /* align-items: center; */
     justify-content: center;
 }
 
@@ -588,7 +588,7 @@ ul li {
 }
 
 .col--one--text {
-    margin: 10px 0;
+    margin: 1rem 0;
     font-size: 17px;
     font-weight: 400;
     color: #FFF;
@@ -632,4 +632,225 @@ ul li {
     font-weight: 400;
     font-family: 'Maven Pro', sans-serif;
     color: #B1AFB4;
+}
+
+/* SHO PAGE  */
+/* SHOP CONTAINER  */
+.shop__container {
+    padding: 5rem 3rem;
+    background-color: #EDEDED;
+}
+
+.shop__content {
+    display: flex;
+}
+
+.shop--input--btn {
+    display: flex;
+    align-items: center;
+}
+
+.shop__input {
+    width: 85px;
+    height: 45px;
+}
+
+.shop--search--btn {
+    margin-left: 10px;
+
+}
+
+.shop--search--btn a {
+    color: #FFF;
+    font-size: 17px;
+    font-weight: 500;
+    width: 85px;
+    height: 45px;
+    background-color: #4966FD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    transition: 0.2s;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.shop--search--btn a:hover {
+    background-color: #26222F;
+}
+
+.shop--price--title {
+    margin-top: 2rem;
+    font-size: 20px;
+    font-weight: 500;
+    color: #585b53;
+    font-family: 'Rubik', sans-serif;
+}
+
+.shop--dash--bar {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.shop__dash {
+    width: 18px;
+    height: 18px;
+    background-color: #798FFF;
+    border-radius: 50px;
+}
+
+.dash__shop {
+    width: 150px;
+    height: 5px;
+    background-color: #798FFF;
+}
+
+.filter--price {
+    margin-top: 2rem;
+    display: flex;
+}
+
+.filter__btn a {
+    padding: 7px 1rem;
+    background-color: #4966FD;
+    color: #FFF;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.filter__btn a:hover {
+    background-color: #26222F;
+}
+
+.price__box {
+    margin-left: 1.5rem;
+}
+
+.price--col--one {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Maven Pro', sans-serif;
+    color: #525252;
+}
+
+.price--col--one span {
+    font-weight: 700;
+}
+
+.price--col--two {
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+    font-size: 15px;
+    font-weight: 700;
+    color: #525252;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.item__list {
+    padding: 4rem 0;
+}
+
+.item {
+    margin: 10px 15px;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Maven Pro', sans-serif;
+    line-height: 34px;
+}
+
+.item a {
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Maven Pro', sans-serif;
+    color: #6c78b5;
+    line-height: 34px;
+}
+
+.item span {
+    margin-left: 5px;
+}
+
+.vertical__dash {
+    margin: 0 4em;
+    width: 1px;
+    height: auto;
+    background-color: silver;
+}
+
+.col--two--head {
+    font-size: 16px;
+    font-weight: 400;
+    color: #777777;
+    font-family: 'Maven Pro', sans-serif;
+
+}
+
+.col--two--title {
+    margin: 2rem 0;
+    font-size: 30px;
+    font-weight: 500;
+    color: #798fff;
+    font-family: 'Rubik', sans-serif;
+}
+
+.col--two--result {
+    display: flex;
+}
+
+.result__titl {
+    font-size: 17pz;
+    font-weight: 400;
+    color: #525252;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.dropdown__bar {
+    margin-left: 35rem;
+}
+
+.dropdown__bar .input__select {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Maven Pro', sans-serif;
+    color: #666666;
+    border: none;
+    background: none;
+}
+
+.shop--product--content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.next--btn--group {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+.next__btn {
+    width: 45px;
+    height: 45px;
+    margin-left: 5px;
+    border: 1px solid #4966FD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4966FD;
+    font-size: 17px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.next__btn:nth-child(1) {
+    background-color: #4966FD;
+    color: #FFF;
+}
+.next__btn:hover {
+    background-color: #4966FD;
+    color: #FFF;
 }
